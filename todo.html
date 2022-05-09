@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>To-Do🧠</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <form action="" class="form2"></form>
+    </div>
+
+    <div class="sidebar2">
+      <ul class="tasks">
+        <form class="form">
+          <div class="form__row">
+            <label class="form__label">Title</label>
+            <input type="text" class="form__input form__input--title" />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Date & Time</label>
+            <input
+              type="date"
+              class="form__input form__input--date"
+              id="date"
+            />
+            <br />
+            <input
+              type="time"
+              class="form__input form__input--time"
+              id="time"
+            />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Description</label>
+            <textarea
+              name="paragraph_text"
+              class="form__input form__input--desc"
+              cols="1"
+              rows="1"
+            ></textarea>
+          </div>
+          <div class="form__row">
+            <select name="" id="" class="form__input form__input--type">
+              <option value="Event">Event🎉</option>
+              <option value="Task">Task📝</option>
+              <option value="Reminder">Reminder🎯</option>
+            </select>
+          </div>
+          <div class="form__row">
+            <button class="form__btn">OK</button>
+          </div>
+        </form>
+      </ul>
+    </div>
+  </body>
+</html>
